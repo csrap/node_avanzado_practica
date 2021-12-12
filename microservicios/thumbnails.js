@@ -8,12 +8,13 @@ const responder = new Responder({ name: "thumbnail-creation" });
 
 responder.on("thumbnail-convert", async (req, done) => {
   const { photo } = req;
-  const photoRoute = `../public/images/${photo}`;
+  const photoRoute = `../NodeApi/public/images/${photo}`;
+
 
   sharp(photoRoute)
     .resize(100, 100)
     .toFile(
-      "../public/tumbnails/" + "thumbnail-" + `${photo}`,
+      "../NodeApi/public/tumbnails/" + "thumbnail-" + `${photo}`,
       (err, resizeImage) => {
         if (err) {
           console.log(err);
