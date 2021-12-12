@@ -1,0 +1,25 @@
+{
+  "annoucement": [
+    {
+      "name": "Iphone 12",
+      "sale": true,
+      "price": 599.5,
+      "photo": "./images/iphone.png",
+      "tags": ["Mobile"]
+    },
+    {
+      "name": "Car",
+      "sale": false,
+      "price": 100000.0,
+      "photo": "./images/car_.png",
+      "tags": ["car"]
+    },
+    {
+      "name": "Electric Brush",
+      "sale": true,
+      "price": 50.0,
+      "photo": "./images/cepillo_electrico_.png",
+      "tags": ["Lifestyle"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+GET http://127.0.0.1:3200/api/announcements
+
+
+###
+
+POST http://127.0.0.1:3000/api/announcements
+Content-Type: application/json
+
+{
+  "name": "Iphone 12",
+  "sale": "true", 
+  "price": "799",
+  "photo": "prueba",
+  "tags":["Mobile"]  
+}
+
+###
+PUT http://127.0.0.1:3000/api/announcements/6140c2f44d6acc2a6253bf06
+Content-Type: application/json
+
+{
+  "name": "Iphone 11"
+}
+
+###
+DELETE  http://127.0.0.1:3000/api/announcements/6140bc471fdd9af0944594ca
+
+
