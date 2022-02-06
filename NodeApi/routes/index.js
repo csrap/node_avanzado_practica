@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 const Announcement = require("../Models/Announcement");
-const prueba = require("E:/Bootcamp_Keepcoding/m10-Desarrollo-node-avanzado/nodepop_prt/NodeApi/controllers/announcement.controllers")
+const prueba = require("/home/nodepop/node_avanzado_practica/NodeApi/controllers/announcement.controllers")
 
 /* GET home page. */
 
