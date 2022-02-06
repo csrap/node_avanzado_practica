@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const { createPhoto, getPhoto, updatePhotos, obtener } = require("../../controllers/announcement.controllers");
-const ctrAnn = require("/NodeApi_Avanzado/nodeApi/controllers/announcement.controllers");
+const ctrAnn = require("/node_avanzado_practica/nodeApi/controllers/announcement.controllers");
 const upload = require("../../lib/multerConfig")
 
 
